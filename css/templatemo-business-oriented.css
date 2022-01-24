@@ -435,3 +435,11 @@ body{
     color: #bacc6a;
     font-weight: 600;
 }
+
+.zindex{
+    z-index: 1000;
+}
+
+.textobiblioteca{
+    color: #bacc6a;
+}

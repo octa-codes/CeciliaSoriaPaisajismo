@@ -1,8 +1,8 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['imagen principal.png', 'ppal.1.jpg', 'imagenprincipal3.png', 'margaritasnuevas.jpeg'];
+    const bgImgsNames = ['1920x600 ppal. (1).png', '1920x600 ppal..png', '1920x600 ppal. (2).png'];
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
-    $("#demo").backstretch(bgImgs, {duration: 3000, fade: 500});
+    $("#demo1").backstretch(bgImgs, {duration: 3000, fade: 500});
 
     if(!autoplay) {
       $.backstretch('pause');  

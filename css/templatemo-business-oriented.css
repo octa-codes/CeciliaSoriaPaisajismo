@@ -85,6 +85,10 @@ p {
     #demo1{
         display: none;
     }
+    .flex1{
+        display: none;
+    }
+
 }
 
 .tm-logo-text { font-size: 2rem; }
@@ -375,6 +379,19 @@ select:not([multiple]) {
     .tm-services-img { width: 220px; }
 }
 
+@media (min-width: 501px) {
+    .imgMobile{
+        display: none;
+    }
+    .flex1Mobile{
+        display: none;
+    }
+
+    .carruselMobileJS{
+        display: none;
+    }
+}
+
 @media (max-width: 992px) {
     .navbar-toggler {
         position: fixed;        
@@ -425,18 +442,6 @@ select:not([multiple]) {
         margin-bottom: 30px;
     }
 }
-
-@media (max-width: 1350px) {
-    
-    .flex1{
-       flex: 100%; 
-    } 
-    .flex2{
-        flex: 100%; 
-    }
-
-}
-
 
 body{
     background-color: #fefdf0;

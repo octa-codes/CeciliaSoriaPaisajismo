@@ -89,6 +89,13 @@ p {
         display: none;
     }
 
+    .aob{
+        display: none;
+    }
+
+    .aob1{
+        display: none;
+    }
 }
 
 .tm-logo-text { font-size: 2rem; }
@@ -390,6 +397,14 @@ select:not([multiple]) {
     .carruselMobileJS{
         display: none;
     }
+
+    .aob2{
+        display: none;
+    }
+
+    .aob3{
+        display: none;
+    }
 }
 
 @media (max-width: 992px) {
@@ -482,15 +497,27 @@ body{
 }
 
 .aob{
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background: url(../img/jp2.png);
+    background: url(../img/1920x500\ imag.link\ pc\ 1.png);
 }
 
 .aob1{
     height: 500px;
     width: 100%;
-    background: url(../img/bannerjardinurbanp.png);
+    background: url(../img/1920x500\ imag.link\ pc\ 2.png);
+}
+
+.aob2{
+    height: 500px;
+    width: 100%;
+    background: url(../img/500x500\ imagen.link\ mobile\ 1.png);
+}
+
+.aob3{
+    height: 500px;
+    width: 100%;
+    background: url(../img/500x500\ imagen.link\ mobile\ 2.png);
 }
 
 .flex{

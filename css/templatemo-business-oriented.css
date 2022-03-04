@@ -96,6 +96,10 @@ p {
     .aob1{
         display: none;
     }
+    
+.imagenesprincipales{
+ display: none;   
+}
 }
 
 .tm-logo-text { font-size: 2rem; }
@@ -534,4 +538,15 @@ body{
 .flex2{
     flex: 38%;
     margin: 10px;
+}
+
+.ceciliasoria{
+    font-size: 100px;
+    color: #bacc6a;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ceciliasoria1{
+    color: #bacc6a;
+    font-family: 'Nunito', sans-serif;
 }

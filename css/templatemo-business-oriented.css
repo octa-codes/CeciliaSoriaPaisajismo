@@ -97,9 +97,9 @@ p {
         display: none;
     }
     
-.imagenesprincipales{
- display: none;   
-}
+    .imagenesprincipales{
+        display: none;   
+    }
 
     .titulos{
         font-size: 55px !important; 
@@ -577,4 +577,9 @@ body{
 
 .titulosSecundarios{
     color: #666;
+}
+
+.logo1{
+    height: 60px;
+    width: 200px;
 }

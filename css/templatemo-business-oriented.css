@@ -573,8 +573,9 @@ body{
 .ceciliasoria1{
     color: #fefdf0;
     font-family: 'Nunito', sans-serif;
-    font-size: 32px;
+    font-size: 44px;
     text-align: right;
+    line-height: 0.9;
 }
 
 .ceciliasoria2{

@@ -57,6 +57,12 @@ p {
     margin: 0;
 }
 
+.tm-hr1 {
+    width: 240px;
+    border-top: 3px solid #bacc6a;
+    margin: 0;
+}
+
 .tm-hr-s { width: 140px; }
 .tm-box-bordered { border: 1px solid #9C9D9E; }
 .container-fluid { max-width: 1480px; }
@@ -376,6 +382,23 @@ select:not([multiple]) {
   color: #666;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex1{
+    flex: 40%;
+    height: 788px;
+    margin: 10px;
+    max-width: 900px;
+}
+
+.flex2{
+    flex: 38%;
+    margin: 10px;
+}
+
 #contactSelect { border-radius: 0 }
 .tm-address-text { max-width: 650px; }
 
@@ -387,10 +410,13 @@ select:not([multiple]) {
 
     .flex1{
         flex: 100%!important;
+        max-width: 100%!important;
+        margin: 0!important;
     }
 
     .flex2{
         flex: 100%!important;
+        margin: 0!important;
     }
 }
 
@@ -398,6 +424,10 @@ select:not([multiple]) {
 
     .inicio{
         height: 500px !important;
+    }
+
+    .flex1{
+        height: 592px;
     }
 }
 
@@ -548,21 +578,7 @@ body{
     background: url(../img/reemplazaJUmobile.png);
 }
 
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.flex1{
-    flex: 55%;
-    height: 700px;
-    margin: 10px;
-}
-
-.flex2{
-    flex: 38%;
-    margin: 10px;
-}
 
 .ceciliasoria{
     font-size: 100px;
@@ -572,10 +588,12 @@ body{
 
 .ceciliasoria1{
     color: #fefdf0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 44px;
+    font-family: 'Lora', serif;
+    font-size: 35px;
     text-align: right;
     line-height: 0.9;
+    margin-bottom: 150px;
+    margin-right: 90px;
 }
 
 .ceciliasoria2{
